@@ -30,7 +30,7 @@ export default {
   name: 'IndexPage',
   computed: {
     daysFromWar () {
-      const a = moment([2022, 1, 24]);
+      const a = moment([2022, 1, 23]);
       const b = moment();
       return b.diff(a, 'days')
     }
